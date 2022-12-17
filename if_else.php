@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,11 +9,14 @@
 <body>
     <h2>Penggunaan kontrol if</h2>
     <?php
-    $umur = 18;
+    $umur = 15;
     echo ("umur anda $umur tahun <br>");
     if($umur>=17)
     {
         echo ("Anda boleh masuk");
+    }else
+    {
+        echo ("Anda tidak boleh masuk");
     }
     ?>
 </body>

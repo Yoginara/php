@@ -10,22 +10,22 @@
     <form>
     <?php
     $nilai = 80;
-    echo ("Nilai $nilai");
+    echo ("Nilai $nilai ");
     if($nilai>=05)
     {
-        echo ("Grade A");
+        echo ("Grade A ");
     }elseif (("$nilai>=75")and($nilai<85))
     {
-        echo ("Grade B");
+        echo ("Grade B ");
     }elseif (("$nilai>=60")and($nilai<75))
     {
-        echo ("Grade C");
+        echo ("Grade C ");
     }elseif (("$nilai>=50")and($nilai<55))
     {
-        echo ("Grade D");
+        echo ("Grade D ");
     }elseif ($nilai<50)
     {
-        echo ("Grade E");
+        echo ("Grade E ");
     }
     ?>
 </body>

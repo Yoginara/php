@@ -3,17 +3,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>if</title>
+    <title>Fungsi : string</title>
 </head>
 <body>
-    <h2>Penggunaan kontrol if</h2>
+    <h2>Fungsi : String substr()</h2>
     <?php
-    $umur = 18;
-    echo ("umur anda $umur tahun <br>");
-    if($umur>=17)
-    {
-        echo ("Anda boleh masuk");
-    }
+    $string = "Pemograman Web PHP";
+    $word = substr($string,15,3);
+    echo ("<i>\"$string\"</i> <br>");
+    echo ("Hasil substr (15,3) adalah $word");
     ?>
 </body>
 </html>

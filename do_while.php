@@ -3,17 +3,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>if</title>
+    <title>Do While</title>
 </head>
 <body>
-    <h2>Penggunaan kontrol if</h2>
+    <h2>Penggunaan Kontrol Do while</h2>
+    Kelipatan 3 adalah
     <?php
-    $umur = 18;
-    echo ("umur anda $umur tahun <br>");
-    if($umur>=17)
-    {
-        echo ("Anda boleh masuk");
-    }
+    $i=0;
+    $var=0;
+    do{
+        $var+=3;
+        echo("$var,");
+        $i++;
+    }while($i<=4);
     ?>
+    dst.
 </body>
 </html>
